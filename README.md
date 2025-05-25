@@ -36,6 +36,9 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
   ```bash
   composer require --dev phpunit/phpunit
 
+
+ ##
+
   - Al introducirlo se creará la carpeta Vendor con los componentes.
   - Recuerda que has de introducir el autoload y la ubicacion de las carpetas en el composer.json:
 
