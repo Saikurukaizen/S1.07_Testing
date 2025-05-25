@@ -33,14 +33,15 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
   2. Accede a la carpeta raíz del proyecto desde la terminal
   3. Instala PHPUnit con el siguiente comando:
 
+
   ```bash
   composer require --dev phpunit/phpunit
 
-
- ##
+  ```
 
   - Al introducirlo se creará la carpeta Vendor con los componentes.
   - Recuerda que has de introducir el autoload y la ubicacion de las carpetas en el composer.json:
+
 
  ```bash
 
@@ -57,14 +58,13 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
       }
     }
 
+ ```
 
-##
 Ejecuta el autoload con:
 
   ```bash
   composer dump-autoload
-
- ##
+ ```
 
 ## ▶️ Ejecución
 - Tus archivos de tests tienen que estar en la carpeta de Tests, y aquellos tests tiene que tener como nombre final la palabra test. Ej: EjemploTest.php
