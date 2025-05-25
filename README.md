@@ -42,6 +42,8 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
   - Al introducirlo se creará la carpeta Vendor con los componentes.
   - Recuerda que has de introducir el autoload y la ubicacion de las carpetas en el composer.json:
 
+ ```bash
+
     {
       "autoload": {
         "psr-4": {
@@ -55,11 +57,14 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
       }
     }
 
+
+##
 Ejecuta el autoload con:
 
   ```bash
-
   composer dump-autoload
+
+ ##
 
 ## ▶️ Ejecución
 - Tus archivos de tests tienen que estar en la carpeta de Tests, y aquellos tests tiene que tener como nombre final la palabra test. Ej: EjemploTest.php
