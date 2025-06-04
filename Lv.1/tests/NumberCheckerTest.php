@@ -15,7 +15,6 @@ final class NumberCheckerTest extends TestCase{
 
     protected function tearDown(): void{
         $this->numberChecker = null;
-        parent::tearDown();
     }
 
     public function testIsEven(): void{
