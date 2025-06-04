@@ -8,10 +8,10 @@ Ejercicios prácticos de Testing del Tema 7 del Sprint 1
 
 ## 🎯 Palabras Clave
 - XDebug
-- var_dump
 - PHPUnit
 - Tests Unitarios
 - TDD
+- Data Providers
 - PHP Coding Standards (PSR-1)
 
 ## 🛠️ Tecnologías utilizadas
