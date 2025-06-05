@@ -17,7 +17,7 @@ final class NumberCheckerTest extends TestCase{
         ];
     }
 
-    #[DataProvider('NumberCheckerDataProvider')]
+    #[DataProvider('additionNumberCheckerDataProvider')]
     public function testAdd(int $number, bool $isEven, bool $isPositive): void{
         $numberChecker = new NumberChecker($number);
         $this->assertSame($isEven, $numberChecker->isEven());
