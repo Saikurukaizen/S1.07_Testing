@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class RankingNotasTest extends TestCase{
 
-    #[DataProvider('RankingNotasDataProvider::class, provideRanking')]
+    #[DataProviderExternal(RankingNotasDataProvider::class, 'provideRanking')]
 
     public function testRanking(
         float $nota,
