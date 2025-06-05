@@ -11,7 +11,7 @@ class RankingNotasDataProvider{
             [0.55, false, true, false, false],
             [0.60, true, false, false, false],
             [0.80, true, false, false, false],
-            [-0.30, false, false, false, false]
+            [-0.30, false, false, false, true]
         ];
     }
 }
